@@ -1,2 +1,3 @@
-#import magplotlib.pyplot as plt
-# new line
+import magplotlib.pyplot as plt
+# with interpreter
+
