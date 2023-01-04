@@ -1,12 +1,16 @@
-num = input("What number? ")
+num = input("What number?")
+factorial = 1
 print(num + " is the number")
-print("yes thats the number")
-num = input ("45 is your number right?")
-print(" yes, i said 45 ")
-num = input (" ok thanks, im just making sure" )
-print( "thanks" )
-num = input ( "ok last time asking but its 45 right?")
-print( "yes")
+if int(num) <0:
+    print( "factorial does not exist")
+elif int(num) ==0:
+    print("factorial is 1")
+elif int(num) >0:
+    for i in range(1, int(num)+1):
+        factorial = factorial * i
+    print("the factorial of", num, "is", factorial)
+
+
 
 
 
