@@ -52,3 +52,14 @@ def translate(steelers):
 
 print(translate)
 
+import random
+
+
+x = "y"
+
+while x == "y":
+
+    no = random.randiant(1, 6)
+x = input("press y to roll again and n to exit:")
+
+
